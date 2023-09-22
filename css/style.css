@@ -21,9 +21,15 @@ header{
     background-color: var(--toboo-back);
 }
 
+.logo{
+    margin-left: 2rem;
+}
+
 .logo-img{
+    width: 100px;
     vertical-align: middle;
     padding: 1rem;
+
 }
 
 .title{
@@ -34,13 +40,13 @@ header{
     vertical-align: middle;
 }
 
-/* main includes: top nav buttons 
-+ main body content  */
+/*main includes: top nav buttons 
+                 main body content  */
+
 main{
-    width: 70%;
-    margin: auto;
-    margin-top: 3rem;
-    padding-left: 3rem;
+    width: 60%;
+    margin: 3rem auto;
+    
 }
 
 .pl_3{
@@ -72,13 +78,13 @@ nav{
 }
 
 .add-section{
-    color: #cdd2d6;
-    border-color: #cdd2d6;
     background-color: transparent;
+    border-color: #cdd2d6;
+    color: #cdd2d6;
 }
 
 .content{
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     background-color: var(--toboo-back);
     color: #444851;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -167,6 +173,8 @@ nav{
 .link.Sales{
     background-color: #b0c926;
 }
+
+
 
  
 
