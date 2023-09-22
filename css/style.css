@@ -21,14 +21,17 @@ header{
     background-color: var(--toboo-back);
 }
 
-.logo{
+.logo-img{
+    vertical-align: middle;
     padding: 1rem;
 }
- /* can't properly center "Toboolist" */
+
 .title{
-    display: inline-block;
     font-family: 'Mulish', sans-serif;
+    font-weight: 800;
     font-size: 3rem;
+    line-height: 40px;
+    vertical-align: middle;
 }
 
 /* main includes: top nav buttons 
@@ -167,5 +170,5 @@ nav{
 
  
 
-/* text decoration: none (per i button linkati */
+
 
