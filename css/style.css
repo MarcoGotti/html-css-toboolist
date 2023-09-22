@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --toboo-back: white;
+    --toboo-light_blue: #47adf1;
+    --toboo-green:#63bfa8;
+    --toboo-red: #ed655c;
+}
+
+/* body color once for all */
+body{
+    background-color: #f6f8f9;
+}
+
+/* header uncomplete */
+header{
+    background-color: var(--toboo-back);
+}
+
+.logo{
+    padding: 1rem;
+}
+ /* can't properly center "Toboolist" */
+.title{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    font-size: 3rem;
+}
+
+/* main includes: top nav buttons 
++ main body content  */
+main{
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+    padding-left: 3rem;
+}
+
+.pl_3{
+    padding-left: 3rem;
+}
+
+nav{
+    background-color: var(--toboo-back);
+    margin-bottom: 4px;
+}
+
+.button{
+    margin: 1rem 0rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 5px;
+} 
+
+.add-task{
+    background-color: var(--toboo-light_blue);  
+    border-color: var(--toboo-light_blue);
+    color: white;
+}
+
+.add-section{
+    color: #cdd2d6;
+    border-color: #cdd2d6;
+    background-color: transparent;
+}
+
+.content{
+    background-color: var(--toboo-back);
+}
+
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 80px 100px 0 100px;
+    border-color: #007bff transparent transparent transparent;
+}
+
+
+ 
+
+text decoration: none (per i button linkati
+*/
