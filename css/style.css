@@ -75,6 +75,7 @@ nav{
 }
 
 .content{
+    padding-bottom: 2rem;
     background-color: var(--toboo-back);
     color: #444851;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -95,16 +96,29 @@ nav{
     font-size: 20px;
 }
 
-.mt_1{
+.mt_10{
     margin-top: 10px;
 }
 
-.check-select{
+.mt_20{
+    margin-top: 20px;
+}
+
+.check-mark{
     color: var(--toboo-green);
     border: 2px solid var(--toboo-green);
     border-radius: 50%;
     font-size: 10px;
-    font-weight: bold;
+    width: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.ballot-mark{
+    color: var(--toboo-red);
+    border: 2px solid var(--toboo-red);
+    border-radius: 50%;
+    font-size: 10px;
     width: 15px;
     display: inline-block;
     text-align: center;
@@ -127,6 +141,29 @@ nav{
     background-color: var(--toboo-light_blue);
 }
 
+.link.Goals{
+    background-color: #9c72e4;
+}
+
+.link.Recruiting{
+    background-color: var(--toboo-green);
+}
+
+.link.Mobile{
+    background-color: #f29e33;
+}
+
+.link.none{
+    display: none;
+}
+
+.link.Website{
+    background-color: #d863a1;
+}
+
+.link.Sales{
+    background-color: #b0c926;
+}
 
  
 
